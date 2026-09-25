@@ -30,6 +30,7 @@ public class RecordVideo {
 
         obj_page = obj_Context.newPage();
         obj_page.navigate("https://saucedemo.com");
+        obj_page.pause();
     }
 
     @Test(priority = 1)
